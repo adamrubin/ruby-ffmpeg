@@ -6,7 +6,7 @@
 // Conversion
 VALUE av_dictionary_to_ruby_hash(AVDictionary * dict);
 
-VALUE av_pixel_format_to_symbol(enum PixelFormat format);
+VALUE av_pixel_format_to_symbol(PixelFormat format);
 enum PixelFormat symbol_to_av_pixel_format(VALUE symbol);
 
 VALUE av_sample_format_to_symbol(enum AVSampleFormat format);
